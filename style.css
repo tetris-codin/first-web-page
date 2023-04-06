@@ -96,6 +96,37 @@ button {
     border-radius: 5%;
 }
 
-.second-part{
-    
+.container {
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
 }
+
+.textpart2up {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.image-second-part {
+    display: flex ;
+    flex-direction: column ;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.text-under-image {
+    display: flex;
+    font-size:medium;
+    padding-top: 10px;
+    width: 100px;
+}
+
+.img99 {
+    width: 100px;
+    height: 100px;
+    border:2px solid #0b3cc4;
+    box-shadow: none;
+}   
