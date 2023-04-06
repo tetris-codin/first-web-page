@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center, flex-start;
+    padding: 50px;
+    background-color: #1F2937
+        
+}
+.left-header{
+    display: flex;
+    justify-content: center;
+   
+}
+img {
+    box-shadow: 5px 5px 15px 5px #000000;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    
+}
+
+
+.right-header {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+ol {
+    display: flex;
+    gap: 20px;
+    font-size: 18px ;
+    color: #2b5302;
+    list-style-type: none ;
+    
+}
+
+.lien{
+    font-weight: bold; 
+    color: #3a413a;
+    text-decoration: none
+}
