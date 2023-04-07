@@ -1,6 +1,7 @@
-.body {
-    border: 0;
-}
+*{
+    margin:0;
+    padding:0;
+    }
 
 .header {
     display: flex;
@@ -64,6 +65,11 @@ h1 {
     color: aliceblue;
 }
 
+.button123 {
+    padding-top: 40px;
+    padding-left: 258px;
+}
+
 #firstbutton {
     background-color: #12589e; /* Green */
     border: none;
@@ -109,6 +115,7 @@ h1 {
     align-items: center ;
     justify-content: center;
     margin-bottom: 30px;
+    margin-top: 30px;
     color: #12589e;
 }
 
